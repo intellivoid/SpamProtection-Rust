@@ -17,7 +17,7 @@
 
 * About
 
-SpamProtection-rs is a [[https://rust-lang.org][Rust]] wrapper for [[https://intellivoid.net][Intellivoid]] SpamProtection API which uses the [[https://crates.io/crates/reqwest][Reqwest]] library to make the request and [[https://crates.io/crates/serde][serde]] to parse the json output.
+SpamProtection-Rust is a [[https://rust-lang.org][Rust]] wrapper for [[https://intellivoid.net][Intellivoid]] SpamProtection API which uses the [[https://crates.io/crates/reqwest][Reqwest]] library to make the request and [[https://crates.io/crates/serde][serde]] to parse the json output.
 
 This wrapper was made in focus of speed, reliability and memory safety.
 
@@ -50,7 +50,7 @@ spamprotection = "0.1.0-2"
 
 #+BEGIN_SRC toml
 [dependencies]
-spamprotection = { git = "https://github.com/cyberknight777/spamprotection-rs" }
+spamprotection = { git = "https://github.com/Intellivoid/SpamProtection-Rust" }
 #+END_SRC
 
 ** Here's an example of how you can use the spamprotection library in your code
@@ -108,7 +108,7 @@ spamprotection = { git = "https://github.com/cyberknight777/spamprotection-rs" }
 
 #+END_SRC
 
-Check our [[https://github.com/cyberknight777/SpamProtection-rs/tree/master/examples][examples directory]] for more info onto how you can use our library.
+Check our [[https://github.com/Intellivoid/SpamProtection-Rust/tree/master/examples][examples directory]] for more info onto how you can use our library.
 
 * Credits
 
